@@ -1,24 +1,112 @@
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Mon site perso</title>
-</head>
-<body>
-    <header>
-
-    </header>
-    <nav>
-
-    </nav>
+  </head>
+  <body>
     <section>
-        <article>
-</article>
+      <article>
+        <div id="bubble">
+          <p id="bubbleText"></p>
+        </div>
+        <div class="flatBoy">
+          <img id="boy" src="medias/images/Idle (1).png" alt="" />
+        </div>
+        <div id="grass">
+          <div id="indication">
+            <p>
+              Utilisez la touche > pour avancer, arrêtez vous lorsque vous êtes
+              à proximité d'une caisse.
+            </p>
+          </div>
+          <div id="object1">
+            <img src="medias/images/caisse.png" onclick="firstImage()" alt="" />
+            <img
+              id="secondPosition"
+              src="medias/images/caisse.png"
+              onclick="secondImage()"
+              alt=""
+            />
+          </div>
+          <div id="portfolio">
+            <img id="firstCase" src="medias/images/albi.jpg" alt="" />
+            <div id="secondCase">
+              <img id="tarn" src="medias/images/tarn.jpeg" alt="" />
+              <img id="ruisseau" src="medias/images/ruisseau.jpeg" alt="" />
+              <img id="vallee" src="medias/images/vallee-brousse.jpg" alt="" />
+              <div class="container-next">
+                <img id="ambialet" src="medias/images/ambialet.jpg" alt="" />
+                <img id="cordes" src="medias/images/cordes.jpg" alt="" />
+                <img id="larzac" src="medias/images/larzac.jpg" alt="" />
+                <img id="lescure" src="medias/images/lescure.jpg" alt="" />
+                <img id="thuries" src="medias/images/thuries.jpg" alt="" />
+                <img
+                  id="cathedrale"
+                  src="medias/images/cathedrale.jpg"
+                  alt=""
+                />
+                <p id="overlayAmbialet">
+                  Ambialet est un tout petit village aux abords du tarn a
+                  environ 30min d'Albi.
+                </p>
+                <p id="overlayCordes">
+                  Cordes a été élu plus beau village de France il y a quelques
+                  temps. Perché sur une colline il lui arrive souvent d'être au
+                  dessus des nuages d'où son nom Cordes-Sur-Ciel.
+                </p>
+                <p id="overlayLarzac">
+                  Le plateau du larzac est un endroit magnifique propice aux
+                  randonnées, il se situe dans le département de l'Aveyron.
+                </p>
+                <p id="overlayLescure">
+                  Lescure est un petit village médiéval où j'ai passé une grande
+                  partie de mon enfance et adolescence.
+                </p>
+                <p id="overlayThuries">
+                  Thuriès est un superbe endroit pour faire des BBQ, pêcher où
+                  se promener.
+                </p>
+                <p id="overlaycathedrale">
+                  Classé à l'UNESCO, la Cathédrale Sainte Cécile est le plus
+                  grand édifice religieux en brique d'Europe. Il a fallut près
+                  de 200 ans pour la construire.
+                </p>
+              </div>
+              <footer>
+                <div id="social">
+                  <a href="https://github.com/Emeric-Simplon" target="_blanck"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/emeric-tourel-6b9447168/"
+                    target="_blanck"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/emeric-tourel-6b9447168/"
+                    target="_blanck"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </div>
+              </footer>
+            </div>
+          </div>
+          <img id="firstPlan" src="medias/images/grass.jpg" alt="" />
+          <img src="medias/images/background.jpg" alt="" />
+          <img src="medias/images/background.jpg" alt="" />
+          <img src="medias/images/background.jpg" alt="" />
+        </div>
+      </article>
     </section>
-    <footer>
-
-    </footer>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
